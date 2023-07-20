@@ -1,0 +1,23 @@
+GET http://localhost:3000/api/messages
+
+###
+
+
+POST http://localhost:3000/api/messages
+content-type: application/json
+
+{
+    "text": "kk"
+}
+
+###
+DELETE http://localhost:3000/api/messages/64b8d479722e67e9d96acee5
+
+###
+
+PUT http://localhost:3000/api/messages/64b8d944fb4abb78e944c5e0
+content-type: application/json
+
+{
+    "text": "dudeish"
+}
